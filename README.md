@@ -40,6 +40,9 @@ Two models handle different jobs:
 
 Your calendar data never leaves your machine. No OpenAI key, no Anthropic key, no API costs.
 
+Python as a safety net — even the best language models can fumble dates and times. If Gemma2 returns something ambiguous or malformed, Python's native datetime parsing steps in to normalize and validate it before anything gets written to your calendar. The two work together: the model does the natural language understanding, Python enforces the correctness. Nothing gets added with a broken timestamp.
+Your calendar data never leaves your machine. No OpenAI key, no Anthropic key, no API costs.
+
 ---
 
 ## Google Integrations
