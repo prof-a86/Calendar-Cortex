@@ -156,3 +156,5 @@ calendar-assistant/
 ---
 
 *Built as a personal productivity tool. All AI inference runs locally — your data stays yours.*
+
+*Repository maintained by [@prof-a86](https://github.com/prof-a86)*
